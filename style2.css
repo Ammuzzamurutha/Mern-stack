@@ -1,0 +1,57 @@
+h1,h3{
+    color:#b92b27;
+}
+*{
+    font-family: 'Courier New';
+}
+
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    background-color: green;
+    color: white;
+}
+.a a{
+    color: purple;
+    background-color: yellow;
+}
+
+.upvote + button{
+    background-color: #294c87;
+    color: white;
+}
+nav a {
+    color: hotpink;
+}
+
+input[type="text"]{
+    background-color: #b92b27;
+    color: white;
+}
+input[type="password"]{
+    background-color: #b92b27;
+    color: white;
+}
+
+#myid p{
+   color: springgreen;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color: rgb(55, 131, 164);
+    color: white;
+}
+input[type="radio"]:checked + label {
+   
+    color: rgb(123, 10, 10);
+   font-weight: bold;
+
+}
