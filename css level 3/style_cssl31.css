@@ -1,0 +1,25 @@
+span{
+    background-color: lime;
+    border: 2px solid   black;
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+margin: 20px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 40px;
+    margin: 20px;
+}
+
+.inline{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black ;
+    margin: 5px;
+    background-color: midnightblue;
+    display: inline-block;
+}
