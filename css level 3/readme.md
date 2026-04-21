@@ -5,7 +5,7 @@ height and width css properties wont work on inline elements.
 margin works only for left and right.
 padding works on all sides but overlaps on top and bottom.
 
-//css part 3 assignment
+css part 3 assignment
 em ,rem and %
 em is a unit depends on parent and self
 where rem is a unit depends on root elemenr i.e, html tag
