@@ -1,0 +1,73 @@
+/* alpha and opacity */
+div{
+    width: 200px;
+    height: 200px;
+    background-color:rgba(255,255,0,0.9);
+    border: 2px solid black;
+}
+
+#opacity{
+    background-color: #00ff56;
+    opacity: 0.6;
+}
+/* css transitions */
+
+#transition{
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+    margin: 0 auto;
+    transition: background-color 1s ease-in-out 1s;
+}
+#transition:hover{
+    background-color: #0000ff;
+    margin-top: 20px;
+}
+/*  css transforms */
+   /*rotate*/
+section{
+    margin-top: 100px;
+}
+.transform{
+   width: 200px;
+   height: 50px;
+   text-align: center;
+   background-color: #00ff56;
+   border: 2px solid black;
+   margin: 5px;
+   display: inline-block;
+
+}
+div:nth-of-type(2n){
+    background-color: blueviolet;
+}
+div:nth-of-type(3n){
+    background-color: crimson;
+}
+#one{
+    transform: rotate(90deg);
+}
+/* scale */
+#two{
+    transform: scale(0.6);
+/* translate */
+}
+#three{
+    transform: translate(20px, 20px);
+}
+#four{
+    transform: skew(30deg);
+}
+/*box shadow*/
+#one{
+    box-shadow: 10px 10px 20px black;
+}
+/*background image*/
+/*cover,auto,contain*/
+#bgimg{
+    width: 600px;
+    height: 1200px;
+    background-image: url("doraeman.jpg");
+    margin: 10px auto;
+    background-size: cover;
+}
