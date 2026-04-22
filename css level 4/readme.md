@@ -27,6 +27,9 @@ cover-->crop
 ------------------------------------------------------------
 ==>card hover effect
 creating a employee's card with div adding all css properties ,hovering effects etc
-
-
+==>The CSS position property defines how an element is placed in a document. It is used alongside the offset properties (top, bottom, left, right) and z-index to determine final placement and stacking
+-->static (Default): Elements follow the normal document flow. The top, bottom, left, and right properties have no effect.
+-->relative: The element is positioned relative to its normal place in the document flow. Offsetting it leaves a "gap" where it originally would have been; surrounding elements do not move to fill this space.
+-->absolute: The element is removed from the normal document flow and positioned relative to its nearest positioned ancestor (any ancestor with a position other than static). If no such ancestor exists, it is positioned relative to the initial containing block (usually the viewport).
+-->fixed: The element is removed from the normal flow and positioned relative to the viewport. It stays in the same place even when the page is scrolled.
 
