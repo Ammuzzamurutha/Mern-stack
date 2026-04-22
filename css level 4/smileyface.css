@@ -1,0 +1,35 @@
+#outerdiv{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+}
+#eye1{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#eye2{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 130px;
+}
+#mouth{
+    width: 100px;
+    height: 50px;
+    border-bottom: 5px solid black;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
