@@ -12,3 +12,9 @@ center: Items are centered along the main axis.
 space-between: Items are evenly distributed; the first item is at the start edge and the last item is at the end edge.
 space-around: Items are distributed with equal space around them. Visually, the gaps between items are double the size of the gaps at the edges.
 space-evenly: Items are distributed so that the spacing between any two items and the spacing to the edges is exactly the same. 
+The align-items CSS property controls how items are positioned along a container's cross axis
+stretch (default): Items stretch to fill the container's height (or width in column layouts).
+center: Items are centered along the cross axis.
+flex-start / start: Items align to the beginning of the container (e.g., the top in a row layout).
+flex-end / end: Items align to the end of the container (e.g., the bottom in a row layout).
+baseline: Items align based on the baseline of their text content
