@@ -18,3 +18,5 @@ center: Items are centered along the cross axis.
 flex-start / start: Items align to the beginning of the container (e.g., the top in a row layout).
 flex-end / end: Items align to the end of the container (e.g., the bottom in a row layout).
 baseline: Items align based on the baseline of their text content
+content alignment typically involves two axes: the main axis (usually horizontal) and the cross axis (usually vertical)
+The CSS align-self property allows you to align an individual flex or grid item along the cross axis, overriding the default alignment set by its parent's align-items property.
