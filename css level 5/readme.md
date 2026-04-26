@@ -21,3 +21,11 @@ baseline: Items align based on the baseline of their text content
 content alignment typically involves two axes: the main axis (usually horizontal) and the cross axis (usually vertical)
 The CSS align-self property allows you to align an individual flex or grid item along the cross axis, overriding the default alignment set by its parent's align-items property.
 Flex sizing refers to how elements (flex items) within a flex container expand, shrink, and occupy space along the main axis. This behavior is primarily controlled by three CSS properties: flex-grow, flex-shrink, and flex-basis
+General Syntax: flex: <flex-grow> <flex-shrink> <flex-basis>;
+----------------------------------------------------------------------------------------------------------
+Keypad activity 
+involves div and child divs grouped by classes 
+grouped 3 divs with single name 
+and then added styling 
+----------------------------------------------------------------------------------------------------------
+
